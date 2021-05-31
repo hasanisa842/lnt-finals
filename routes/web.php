@@ -29,4 +29,4 @@ Route::middleware('auth')->group(function () {
         return view('main')
     });
     Route::get('admin/{id}/edit/', 'AdminController@edit');
-})
+});
